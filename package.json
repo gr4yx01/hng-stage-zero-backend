@@ -6,7 +6,9 @@
   "author": "gr4yx01 <hoyx0101@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "tsx --watch src/index.ts",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
     "vercel-build": "tsc"
   },
   "dependencies": {
