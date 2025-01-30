@@ -6,7 +6,8 @@
   "author": "gr4yx01 <hoyx0101@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "tsx --watch src/index.ts"
+    "dev": "tsx --watch src/index.ts",
+    "vercel-build": "tsc"
   },
   "dependencies": {
     "@types/cors": "^2.8.17",
